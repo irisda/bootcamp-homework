@@ -120,7 +120,7 @@ article {
 .learn {
   background: #ffffff;
   color: #111b47;
-  padding: 7px 46px;
+  padding: 6px 55px;
 }
 .section1 {
   display: flex;
@@ -257,4 +257,85 @@ hr{
   padding-right: 158px;
   margin-left: 112px;
   align-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  nav {
+    display:flex;
+      height: auto;
+    }
+    nav ul {
+      width: 100%;
+      display: flex;
+      height: auto;
+    }
+    nav li {
+      width: 50%;
+
+      position: relative;
+    }
+    nav a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+    }
+.buy {
+  display:none
+}
+article{
+padding:0px;
+}
+.container {
+display:flex;
+flex-direction: column-reverse;
+align-content: center;
+}
+.img-collection > img{
+display:none
+}
+.section1{
+  display:flex;
+  align-content: center;
+}
+.section1 > img {
+  display: none;
+}
+.two-column{
+  padding:0px;
+}
+.section2, .section3,.section4
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding:20px 0px ;
+  width:100%;
+}
+.section5{
+  width:100%;
+  background-color: #e9eeff
+}
+.footer2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+}
+
+
+@media only screen and (max-width : 480px) {
+
+nav {
+  border-bottom: 0;
+}
+nav ul {
+  display: none;
+  height:auto;
+}
+
 }
