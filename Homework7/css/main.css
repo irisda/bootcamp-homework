@@ -341,5 +341,9 @@ display:none
       display: flex;
       flex-direction: column-reverse;
     }
+    .section5{
+      width:100%;
+      background-color: #e9eeff
+    }
 
    }
