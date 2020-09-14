@@ -18,7 +18,12 @@
     padding-bottom: 100px
 }
 
-
+.address{
+    padding-right:10px;
+    color: #505f98;
+    font-size: 14px;
+    line-height: 30px;
+}
 
 .form {
     background-color: white !important;
