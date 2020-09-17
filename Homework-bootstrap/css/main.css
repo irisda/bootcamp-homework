@@ -586,6 +586,52 @@ body {
     justify-content: flex-end;
   }
 }
+/* Contact US */
+.contact .informations {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .informations svg {
+  font-size: 20px;
+  color: #0563bb;
+  float: left;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.contact .informations h4 {
+  padding-left:60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact .informations p {
+  padding-left:60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
+}
+
+.contact .informations .email, .contact .informations .phone {
+  margin-top: 40px;
+}
+
+.contact .informations .email:hover i, .contact .informations .address:hover i, .contact .informations .phone:hover i {
+  background: #0563bb;
+  color: #fff;
+}
+
+.contact .forma-contact {
+  width: 100%;
+  background: #fff;
+}
 
   /*--------------------------------------------------------------
   # Footer
