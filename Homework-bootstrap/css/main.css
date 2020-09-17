@@ -375,19 +375,29 @@ body {
   .section-bg {
     background-color: #f7f8f9;
   }
-
   .section-title {
     text-align: center;
     padding-bottom: 30px;
   }
 
   .section-title h2 {
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    font-family: "Poppins", sans-serif;
-    color: #627680;
+    font-size: 28px;
+    text-transform: uppercase;
+    position: relative;
+    color: #222222;
+  }
+
+  .section-title h2::before, .section-title h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #3498db;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+  }
+
+  .section-title h2::after {
+    margin: 0 0 10px 10px;
   }
 
   .section-title p {
@@ -471,6 +481,111 @@ body {
   .services .icon-box-blue:hover {
     border-color: #2282ff;
   }
+
+/*-----  skills  ----------*/
+.skills .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #47b2e4;
+}
+
+.skills .content p:last-child {
+  margin-bottom: 0;
+}
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #e8edf5;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #4668a2;
+}
+
+/*---------Call To Action Section-----*/
+.callToAction {
+  background: #009cea;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.callToAction h3 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.callToAction p {
+  color: #fff;
+}
+
+.call-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #009cea;
+  background: #fff;
+  border-color:#fff;
+}
+
+.call-btn:hover {
+  background: #009cea;
+  border-color:#fff;
+}
+
+
+@media (min-width: 769px) {
+  .call-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
 
   /*--------------------------------------------------------------
   # Footer
