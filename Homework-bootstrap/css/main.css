@@ -639,7 +639,6 @@ body {
   # Footer
   --------------------------------------------------------------*/
   #footer {
-
     background: #f7f8f9;
     color: #45505b;
     font-size: 14px;
@@ -647,4 +646,30 @@ body {
     padding: 30px 0;
 
   }
+
+  /*Mobile  */
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 21px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 1;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-nav-toggle svg {
+  color: #009cea;
+}
+
+
+
+
+
+
 
