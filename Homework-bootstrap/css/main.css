@@ -52,14 +52,6 @@ body {
     margin: 0;
     max-height: 40px;
   }
-
-  @media (max-width: 768px) {
-    #header .logo h1 {
-      font-size: 28px;
-      padding: 8px 0;
-    }
-  }
-
   /*--------------------------------------------------------------
   # Header Social Links
   --------------------------------------------------------------*/
@@ -75,11 +67,7 @@ body {
     color: #009cea;
   }
 
-  @media (max-width: 768px) {
-    .header-social-links {
-      padding-right: 48px;
-    }
-  }
+
 
   /*--------------------------------------------------------------
   # Navigation Menu
@@ -176,17 +164,7 @@ body {
     right: 15px;
   }
 
-  @media (max-width: 1366px) {
-    .nav-menu .drop-down .drop-down ul {
-      left: -90%;
-    }
-    .nav-menu .drop-down .drop-down:hover > ul {
-      left: -100%;
-    }
-    .nav-menu .drop-down .drop-down > a:after {
-      content: "\ea9d";
-    }
-  }
+
 
   /* Mobile Navigation */
   .mobile-nav-toggle {
@@ -348,21 +326,9 @@ body {
     width: 70%;
   }
 
-  @media (min-width: 1024px) {
-    #hero {
-      background-attachment: fixed;
-    }
-  }
 
-  @media (max-width: 992px) {
-    #hero h1 {
-      font-size: 32px;
-      line-height: 40px;
-    }
-    #hero h2 {
-      font-size: 20px;
-    }
-  }
+
+
 
   /*--------------------------------------------------------------
   # Sections General
@@ -579,13 +545,7 @@ body {
 }
 
 
-@media (min-width: 769px) {
-  .call-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
+
 /* Contact US */
 .contact .informations {
   width: 100%;
