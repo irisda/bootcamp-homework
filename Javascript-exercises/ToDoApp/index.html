@@ -109,8 +109,13 @@
         }
 
 clearBtn.addEventListener('click', e =>{
+    let promt = confirm('Do you want to delete?')
+if(promt){
     localStorage.clear();
     location.reload();
+}
+
+
 })
     </script>
 </body>
